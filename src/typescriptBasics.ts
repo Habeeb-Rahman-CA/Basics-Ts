@@ -31,6 +31,17 @@
 //         },
 //     }
 
+// //we can also re-open the interface
+// interface User {
+//     name: string,
+//     age: number,
+//     isStudent: boolean
+// }
+
+// interface User{
+//     studentId: number
+// }
+
 
 // // Type
 // type Details = {
@@ -279,7 +290,7 @@
 //     console.log(orderId, status) //this can get the type from the status type
 // }
 
-// getStatus("1235", "COMPLETED") 
+// getStatus("1235", "COMPLETED")
 
 
 // //Utility Type
@@ -361,7 +372,7 @@
 // const foods: Record<string, any> = {
 //     Chicken: "Alfaham",
 //     Beef: 10,
-//     Meals: false 
+//     Meals: false
 // }
 
 
@@ -379,7 +390,7 @@
 // newValue.
 
 
-// // Never 
+// // Never
 // function throwError(message: string) : never {
 //     throw new Error(message)
 // }
